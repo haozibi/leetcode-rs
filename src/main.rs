@@ -53,6 +53,13 @@ fn create(name: PathBuf) -> anyhow::Result<()> {
     let readme_file = format!("leetcode/src/_{}_{}/README.md", filename_id, filename_en);
     let readme_body = format!("# {}", filename.replace("_", "."));
 
+    let show_dir = format!(
+        "- [{}](../leetcode/src/_{}_{}/)",
+        filename.replace("_", "."),
+        filename_id,
+        filename_en
+    );
+
     let mut body = body.replace("/*", "#[allow(unused)]\n\n/*");
 
     body.push_str(
@@ -76,6 +83,9 @@ mod tests {
     fs::write(readme_file, readme_body)?;
 
     insert_lib(format!("_{}_{}", filename_id, filename_en).to_string());
+
+    println!("{}", show_dir);
+    fs::remove_file(name)?;
     Ok(())
 }
 
