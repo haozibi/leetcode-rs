@@ -6,7 +6,7 @@ use dialoguer::{theme::ColorfulTheme, Select};
 use std::io::Write;
 
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, Rust!");
 
     let dir = String::from("/home/bi/.leetcode/rs");
 
@@ -19,7 +19,10 @@ fn search(dir: String) -> anyhow::Result<()> {
         .collect::<Result<Vec<_>, io::Error>>()?;
     entries.sort();
 
-    println!("{:?}", entries);
+    if entries.len() == 0 {
+        println!("not file!!!");
+        return Ok(());
+    }
     let got = select(entries)?;
 
     create(got)
@@ -121,9 +124,6 @@ fn find_en_name(body: String) -> String {
 }
 
 fn select(list: Vec<PathBuf>) -> anyhow::Result<PathBuf> {
-    if list.len() == 0 {
-        return anyhow::bail!("len is zero");
-    }
     let new_list: Vec<String> = list
         .iter()
         .map(|x| x.display().to_string())
