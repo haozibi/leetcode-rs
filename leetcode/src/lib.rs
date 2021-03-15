@@ -13,3 +13,5 @@ mod _27_remove_element;
 mod _287_find_the_duplicate_number;
 mod _41_first_missing_positive;
 mod _80_remove_duplicates_from_sorted_array_ii;
+
+mod _217_contains_duplicate;
