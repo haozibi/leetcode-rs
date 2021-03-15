@@ -77,15 +77,12 @@
 // @lc code=start
 impl Solution {
     pub fn remove_element(nums: &mut Vec<i32>, val: i32) -> i32 {
-        // j 为慢指针
-        // i 为快指针
-
+        // 双指针
         let mut j = 0;
-
         for i in 0..nums.len() {
-            nums[j] = nums[i];
-            if nums[j] != val {
-                j += 1;
+            if nums[i] != val {
+                nums[j] = nums[i];
+                j = j + 1;
             }
         }
 

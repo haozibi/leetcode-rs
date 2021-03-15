@@ -63,7 +63,7 @@
 			
 - 27	Remove Element	视频讲解	
 - 26	Remove Duplicates from Sorted Array	视频讲解	
-80	Remove Duplicates from Sorted Array II	视频讲解	
+- 80	Remove Duplicates from Sorted Array II	视频讲解	
 277	Find the Celebrity	视频讲解	
 189	Rotate Array	视频讲解	
 41	First Missing Positive	视频讲解	

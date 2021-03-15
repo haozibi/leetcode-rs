@@ -67,14 +67,14 @@ impl Solution {
             return 0;
         }
 
-        let mut i = 0;
+        let mut i = 1;
         for j in (1..nums.len()) {
-            if nums[j] != nums[i] {
-                i = i + 1;
+            if nums[j] != nums[i - 1] {
                 nums[i] = nums[j];
+                i = i + 1;
             }
         }
-        (i + 1) as i32
+        (i) as i32
     }
 }
 // @lc code=end
