@@ -11,4 +11,5 @@ mod _1_two_sum;
 mod _26_remove_duplicates_from_sorted_array;
 mod _27_remove_element;
 mod _287_find_the_duplicate_number;
+mod _41_first_missing_positive;
 mod _80_remove_duplicates_from_sorted_array_ii;

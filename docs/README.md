@@ -10,3 +10,4 @@
 - [287.寻找重复数](../leetcode/src/_287_find_the_duplicate_number/)
 - [ ] 277
 - [189.旋转数组](../leetcode/src/_189_rotate_array/)
+- [41.缺失的第一个正数](../leetcode/src/_41_first_missing_positive/)

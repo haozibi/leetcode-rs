@@ -65,8 +65,8 @@
 - 26	Remove Duplicates from Sorted Array	视频讲解	
 - 80	Remove Duplicates from Sorted Array II	视频讲解	
 - [ ] 277	Find the Celebrity	视频讲解	
-189	Rotate Array	视频讲解	
-41	First Missing Positive	视频讲解	
+- 189	Rotate Array	视频讲解	
+- 41	First Missing Positive	视频讲解	
 299	Bulls and Cows	视频讲解	
 134	Gas Station	视频讲解	
 118	Pascal's Triangle	视频讲解	很少考
