@@ -6,3 +6,4 @@
 
 - [27.移除元素](../leetcode/src/_27_remove_element/)
 - [26.删除排序数组中的重复项](../leetcode/src/_26_remove_duplicates_from_sorted_array/)
+- [287.寻找重复数](../leetcode/src/_287_find_the_duplicate_number/)

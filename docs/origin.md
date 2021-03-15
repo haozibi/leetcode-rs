@@ -62,7 +62,7 @@
 ### 基础
 			
 - 27	Remove Element	视频讲解	
-26	Remove Duplicates from Sorted Array	视频讲解	
+- 26	Remove Duplicates from Sorted Array	视频讲解	
 80	Remove Duplicates from Sorted Array II	视频讲解	
 277	Find the Celebrity	视频讲解	
 189	Rotate Array	视频讲解	
@@ -93,7 +93,7 @@
 334	Increasing Triplet Subsequence	视频讲解	
 128	Longest Consecutive Sequence	视频讲解	
 164	Maximum Gap	视频讲解	Bucket
-287	Find the Duplicate Number	视频讲解	
+- 287	Find the Duplicate Number	视频讲解	
 135	Candy	视频讲解	很少考
 330	Patching Array	视频讲解	很少考
 
