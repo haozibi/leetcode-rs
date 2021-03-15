@@ -88,20 +88,15 @@ mod tests {
 
     #[test]
     fn remove_duplicates() {
-        let mut v1 = vec![1, 1, 2];
-        let res = Solution::remove_duplicates(&mut v1);
-        assert_eq!(v1[..2], v1[..res as usize]);
+        // let mut v1 = vec![1, 1, 2];
+        // let res = Solution::remove_duplicates(&mut v1);
+        // assert_eq!(&[1, 2], v1.truncate(res as usize));
 
-        let mut v1 = vec![0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
-        let res = Solution::remove_duplicates(&mut v1);
-        assert_eq!(split_vec(&v1, 5), split_vec(&v1, res as usize));
-    }
-
-    fn split_vec<T: Clone>(v: &Vec<T>, num: usize) -> Vec<T> {
-        let mut v1 = v.clone();
-        unsafe {
-            v1.set_len(num);
-        }
-        v1
+        let mut input = vec![0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+        let res = Solution::remove_duplicates(&mut input);
+        let want = [0, 1, 2, 3, 4];
+        let mut got = input.clone();
+        got.truncate(res as usize);
+        assert_eq!(&want[..], got);
     }
 }

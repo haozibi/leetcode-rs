@@ -75,6 +75,7 @@ impl Solution {
             nv.extend(nv.clone().iter());
 
             let mut j = 0;
+
             for i in ((nums.len() - k)..(nums.len() - k + nums.len())) {
                 nums[j] = nv[i];
                 j = j + 1;
