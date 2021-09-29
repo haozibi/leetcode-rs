@@ -15,3 +15,5 @@ mod _41_first_missing_positive;
 mod _80_remove_duplicates_from_sorted_array_ii;
 
 mod _217_contains_duplicate;
+mod _219_contains_duplicate_ii;
+mod _206_reverse_linked_list;

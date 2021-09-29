@@ -79,7 +79,7 @@
 244	Shortest Word Distance II	视频讲解	
 245	Shortest Word Distance III	视频讲解	
 - 217	Contains Duplicate	视频讲解	
-219	Contains Duplicate II	视频讲解	很少考
+- 219	Contains Duplicate II	视频讲解	很少考
 220	Contains Duplicate III	视频讲解	很少考
 55	Jump Game	视频讲解	
 [ ] 45	Jump Game II	视频讲解	

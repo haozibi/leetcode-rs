@@ -61,6 +61,8 @@ impl Solution {
             return false;
         }
 
+        // 哈系表太简单了，不写了
+
         f1(nums)
     }
 }
